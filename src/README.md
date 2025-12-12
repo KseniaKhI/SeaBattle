@@ -50,18 +50,31 @@ docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix sea-bat
 
 ## Структура проекта
 sea-battle/
+
 ├── main.py # Точка входа
+
 ├── requirements.txt # Зависимости
+
 ├── README.md # Документация
+
 ├── .gitignore # Игнорируемые файлы
+
 ├── pre-commit-config.yaml # Pre-commit хуки
+
 ├── Dockerfile # Докер конфигурация
+
 ├── game/ # Основная папка с кодом
+
 │ ├── init.py
+
 │ ├── cells.py # Классы Cell и Ship
+
 │ ├── board.py # Классы Board и SmartAI
+
 │ ├── game_logic.py # Основная игровая логика
+
 │ └── ui.py # Класс SeaBattleStable и UI компоненты
+
 └── tests/ # Тесты
 
 
@@ -82,4 +95,5 @@ sea-battle/
 
 ## Автор
 
-[Харитонова Ксения]
+Харитонова Ксения
+
